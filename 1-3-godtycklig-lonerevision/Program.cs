@@ -24,14 +24,24 @@ namespace _1_3_godtycklig_lonerevision
         static private int ReadInt(string prompt)
         {
             
-            string tempovari = null;
+            string tempovari;
 
             while (true)
             {
+                try
+                {
                 Console.Write(prompt);
-
                 tempovari = Console.ReadLine();
                 return int.Parse(tempovari);
+                }
+                 catch
+                {
+                    Console.BackgroundColor = ConsoleColor.Red;
+                    Console.Write("Fel vid inmatning, vänligen ange antal löner: ");
+                    Console.ResetColor();
+                }
+
+                
             }
         }
 
