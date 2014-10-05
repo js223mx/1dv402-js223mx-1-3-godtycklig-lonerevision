@@ -51,22 +51,29 @@ namespace _1_3_godtycklig_lonerevision
             Array.Copy(salaries, salariesLength, count);
             Array.Sort(salaries);
 
+            //kollar så det är jämt antal löner
             if (count % 2 == 0) 
             {
+                //median lönen om det är jämt antal löner
                 medianSalary = (salaries[(count / 2) - 1] + salaries[(count / 2)]) / 2;
             }
             else 
             {
+                //medianlönen om det är ojämt antal löner
                 medianSalary = salaries[(count - 1) / 2];
             }
             Console.WriteLine("Medianlönen: {0:c0}", medianSalary);
 
+            //Medellönen
             averageSalary = salaries.Average();
             Console.WriteLine("Medellönen: {0:c0}", averageSalary);
+
+            //Lönespridningen
             wageDistribution = salaries.Max() - salaries.Min();
             Console.WriteLine("Lönespridningen: {0:c0}", wageDistribution);
 
             Console.Write("-------------------------------------------------------");
+            Console.WriteLine();
 
             for (int i = 1; i <= count; i++) 
             {
