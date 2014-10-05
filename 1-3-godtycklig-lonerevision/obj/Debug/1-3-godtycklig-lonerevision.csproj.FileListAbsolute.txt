@@ -4,3 +4,9 @@ P:\1dv402\1dv402-js223mx-1-3-godtycklig-lonerevision\1-3-godtycklig-lonerevision
 P:\1dv402\1dv402-js223mx-1-3-godtycklig-lonerevision\1-3-godtycklig-lonerevision\bin\Debug\1-3-godtycklig-lonerevision.pdb
 P:\1dv402\1dv402-js223mx-1-3-godtycklig-lonerevision\1-3-godtycklig-lonerevision\obj\Debug\1-3-godtycklig-lonerevision.exe
 P:\1dv402\1dv402-js223mx-1-3-godtycklig-lonerevision\1-3-godtycklig-lonerevision\obj\Debug\1-3-godtycklig-lonerevision.pdb
+D:\VSprojects\1dv402-js223mx-1-3-godtycklig-lonerevision\1-3-godtycklig-lonerevision\bin\Debug\1-3-godtycklig-lonerevision.exe.config
+D:\VSprojects\1dv402-js223mx-1-3-godtycklig-lonerevision\1-3-godtycklig-lonerevision\obj\Debug\1-3-godtycklig-lonerevision.exe
+D:\VSprojects\1dv402-js223mx-1-3-godtycklig-lonerevision\1-3-godtycklig-lonerevision\obj\Debug\1-3-godtycklig-lonerevision.pdb
+D:\VSprojects\1dv402-js223mx-1-3-godtycklig-lonerevision\1-3-godtycklig-lonerevision\bin\Debug\1-3-godtycklig-lonerevision.exe
+D:\VSprojects\1dv402-js223mx-1-3-godtycklig-lonerevision\1-3-godtycklig-lonerevision\bin\Debug\1-3-godtycklig-lonerevision.pdb
+D:\VSprojects\1dv402-js223mx-1-3-godtycklig-lonerevision\1-3-godtycklig-lonerevision\obj\Debug\1-3-godtycklig-lonerevision.csprojResolveAssemblyReference.cache
