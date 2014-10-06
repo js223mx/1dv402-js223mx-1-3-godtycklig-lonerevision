@@ -11,6 +11,10 @@ namespace _1_3_godtycklig_lonerevision
         static void Main(string[] args)
         {
             int numberOfSalaries = 0;
+            do
+            {
+             Console.Clear();
+
             numberOfSalaries = ReadInt("Ange antal löner att mata in: ");
             Console.WriteLine();
 
@@ -28,8 +32,9 @@ namespace _1_3_godtycklig_lonerevision
             Console.ForegroundColor = ConsoleColor.White;
             Console.Write("Tryck ned tangent för ny beräkning - Esc avslutar.");
             Console.ResetColor();
-            
-            while(Console.ReadKey(true).Key !=ConsoleKey.Escape);
+
+            } while (Console.ReadKey(true).Key != ConsoleKey.Escape);
+                
         }
 
         static void ProcessSalaries(int count)
@@ -44,7 +49,7 @@ namespace _1_3_godtycklig_lonerevision
 
             for (int i = 0; i < count; i++) 
             {
-                salaries[i] = ReadInt(string.Format("Ange lön nummer 1 {0}:", i + 1));
+                salaries[i] = ReadInt(string.Format("Ange lön nummer  {0}:", i + 1));
             }
             Console.WriteLine("-----------------------------------------------------");
 
@@ -54,7 +59,7 @@ namespace _1_3_godtycklig_lonerevision
             //kollar så det är jämt antal löner
             if (count % 2 == 0) 
             {
-                //median lönen om det är jämt antal löner
+                //medianlönen om det är jämt antal löner
                 medianSalary = (salaries[(count / 2) - 1] + salaries[(count / 2)]) / 2;
             }
             else 
@@ -62,22 +67,22 @@ namespace _1_3_godtycklig_lonerevision
                 //medianlönen om det är ojämt antal löner
                 medianSalary = salaries[(count - 1) / 2];
             }
-            Console.WriteLine("Medianlönen: {0:c0}", medianSalary);
+            Console.WriteLine("Medianlönen:     {0:c0}", medianSalary);
 
             //Medellönen
             averageSalary = salaries.Average();
-            Console.WriteLine("Medellönen: {0:c0}", averageSalary);
+            Console.WriteLine("Medellönen:      {0:c0}", averageSalary);
 
             //Lönespridningen
             wageDistribution = salaries.Max() - salaries.Min();
-            Console.WriteLine("Lönespridningen: {0:c0}", wageDistribution);
+            Console.WriteLine("Lönespridningen:  {0:c0}", wageDistribution);
 
             Console.Write("-------------------------------------------------------");
             Console.WriteLine();
 
             for (int i = 1; i <= count; i++) 
             {
-                Console.Write("{0,5}", salaries[i - 1]);
+                Console.Write(" {0, 5} ", salaries[i - 1]);
                 if (i % 3 == 0) 
                 {
                     Console.WriteLine();
